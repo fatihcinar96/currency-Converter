@@ -1,0 +1,22 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "a currency converter based on javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatihcinar96/currency-Converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatihcinar96/currency-Converter/issues"
+  },
+  "homepage": "https://github.com/fatihcinar96/currency-Converter#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

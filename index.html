@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="site.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="https://github.com/fatihcinar96/currency-Converter">Currency Converter-Source</a>
+      </nav>
+  <div class="container" style="margin-top: 3%; ">
+    <input type="text" placeholder="Enter the price" class="form-control" id="price" />
+
+    <label>Base Currency</label>
+    <select class="form-control form-control-sm" id="selectBase">
+        <option value="base">Choose Base Currency</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="TRY">TRY</option>
+        <option value="AUD">AUD</option>
+        <option value="BGN">BGN</option>
+        <option value="BRL">BRL</option>
+        <option value="CAD">CAD</option>
+        <option value="CHF">CHF</option>
+        <option value="CNY">CNY</option>
+        <option value="CZK">CZK</option>
+        <option value="DKK">DKK</option>
+        <option value="GBP">HKD</option>
+        <option value="HRK">HUF</option>
+        <option value="IDR">IDR</option>
+        <option value="ILS">ILS</option>
+        <option value="INR">INR</option>
+        <option value="ISK">ISK</option>
+        <option value="JPY">JPY</option>
+        <option value="KRW">KRW</option>
+        <option value="MXN">MXN</option>
+        <option value="MYR">MYR</option>
+        <option value="NOK">NZD</option>
+        <option value="PHP">PHP</option>
+        <option value="PLN">PLN</option>
+        <option value="RON">RON</option>
+        <option value="RUB">RUB</option>
+        <option value="SEK">SEK</option>
+        <option value="SGD">SGD</option>
+        <option value="THB">THB</option>
+        <option value="ZAR">ZAR</option>
+    </select>
+
+
+    <label>Convert To</label>
+
+    <select class="form-control form-control-sm" id="selectTo">
+        <option value="base">Choose Base Currency</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="TRY">TRY</option>
+        <option value="AUD">AUD</option>
+        <option value="BGN">BGN</option>
+        <option value="BRL">BRL</option>
+        <option value="CAD">CAD</option>
+        <option value="CHF">CHF</option>
+        <option value="CNY">CNY</option>
+        <option value="CZK">CZK</option>
+        <option value="DKK">DKK</option>
+        <option value="GBP">HKD</option>
+        <option value="HRK">HUF</option>
+        <option value="IDR">IDR</option>
+        <option value="ILS">ILS</option>
+        <option value="INR">INR</option>
+        <option value="ISK">ISK</option>
+        <option value="JPY">JPY</option>
+        <option value="KRW">KRW</option>
+        <option value="MXN">MXN</option>
+        <option value="MYR">MYR</option>
+        <option value="NOK">NZD</option>
+        <option value="PHP">PHP</option>
+        <option value="PLN">PLN</option>
+        <option value="RON">RON</option>
+        <option value="RUB">RUB</option>
+        <option value="SEK">SEK</option>
+        <option value="SGD">SGD</option>
+        <option value="THB">THB</option>
+        <option value="ZAR">ZAR</option>
+    </select>
+    <div class="col-md-12"> 
+        <label class="form-control col-md-6 alert-danger" id="currency" style="margin:auto; margin-top : 5%;"></label>
+        </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+          <div class="col-md-12" style="text-align: center">
+            <a href="https://github.com/fatihcinar96/currency-Converter" style="color: #fff;">Currency-Converter Source</a>
+          </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
